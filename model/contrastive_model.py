@@ -106,11 +106,6 @@ class Block(nn.Module):
 
 
 class MultiHeadAttention(nn.Module):
-    """这个Attention类可以实现:
-    Encoder的Self-Attention
-    Decoder的Masked Self-Attention
-    Encoder-Decoder的Attention
-    """
 
     def __init__(self):
         super(MultiHeadAttention, self).__init__()
